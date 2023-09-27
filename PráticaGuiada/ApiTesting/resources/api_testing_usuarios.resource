@@ -59,7 +59,7 @@ Consultar os dados do novo usuário
     Log   ${resposta_consulta.headers}
     Log   ${resposta_consulta.elapsed}
     Log   ${resposta_consulta.text}
-    Log   ${resposta_consulta.json()}5
+    Log   ${resposta_consulta.json()}
     
     Set Test Variable     ${RESP_CONSULTA}  ${resposta_consulta.json()}
 
